@@ -13,7 +13,7 @@
 
 ## 使用与发布
 
-GitHub Pages 发布源：`main` 分支的 `/docs`。所有资源使用相对路径，兼容仓库子目录。
+GitHub Actions 在推送到 `main` 后自动将 `docs/` 发布到 GitHub Pages。所有资源使用相对路径，兼容仓库子目录。
 
 本地运行：`python -m http.server 8000 --directory docs`，打开 `http://localhost:8000`。
 
